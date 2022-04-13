@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo{
+    height: 50px;
+    background-color: #353535;
+}
+
+.topoint{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.logo{
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.menu>ul{
+    display: flex;
+    list-style: none;
+    line-height: 50px;
+}
+
+.menu li{
+    padding: 0 10px 0 10px  ;
+    font-size: 14px;
+    cursor: pointer;
+}
+.menu li:hover{
+    background-color: #3480c1;
+}
+
+.banner{
+    height: 300px;
+    background-color: #347aba;
+    color: white;
+}
+
+.bannerint{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.frDeEfeito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.frDeEfeito h1{    
+    font-size: 48px;
+}
+.frDeEfeito h3{    
+    font-size: 20px;
+}
+.frDeEfeito a{    
+    font-size: 20px;
+    background-color: #ffc001;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    width: 282px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.content{
+
+}
+
+.contentInt{
+    width: 80%;
+    margin: auto;
+}
+
+.outrosProdutos{
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 10px ;
+}
+
+.outrosProdutos h3{
+    font-size: 20px;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.photos img{
+    width: 20%;
+}
